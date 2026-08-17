@@ -1,0 +1,10 @@
+services:
+  range:
+    build: .
+    image: restful-api-range:latest
+    container_name: restful-api-range
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
