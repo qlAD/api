@@ -1,0 +1,15 @@
+node_modules
+.next
+.git
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+README.md
+AGENTS.md
+CLAUDE.md
+.trae
+.vscode
+*.log
+npm-debug.log*
+.DS_Store
